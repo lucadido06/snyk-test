@@ -10,6 +10,6 @@ app.get('/user', (req, res) => {
     res.send(`User input processed: ${JSON.stringify(obj)}`);
 });
 
-app.listen(3000, () => {
-    console.log('Server running on http://localhost:3000');
+app.listen(3001, () => {
+    console.log('Server running on http://localhost:3001');
 });
