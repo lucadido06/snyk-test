@@ -2,6 +2,8 @@ const express = require('express');
 const lodash = require('lodash');
 const app = express();
 
+const password = "my_password_secret";
+
 // Simulated vulnerable route
 app.get('/user', (req, res) => {
     let userInput = req.query.name;
